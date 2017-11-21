@@ -1,4 +1,5 @@
 # pins1fre
+### An Android app passcode protection library for user to protect the app with a four digit code.
 
 <img align="center" src='https://github.com/KeyLo99/pins1fre/blob/master/pins1fre/src/main/res/drawable/android_phone.png' width='335' height='679'/>
 
