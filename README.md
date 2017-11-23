@@ -42,5 +42,3 @@ void delLock(Activity activity) : For removing the pinlock.
 ```
 void changeLock(Activity activity) : For changing the pinlock.
 ```
-
-# Coded by KeyLo99
