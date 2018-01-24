@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.keylo.pins1fre.PinS1fre;
 
-/* Don't forget to add [compile 'com.tht.applocker:pins1fre:1.0:release@aar'] to your Gradle dependencies */
+/* Don't forget to add [compile 'com.tht.applocker:pins1fre:2.1:release@aar'] to your Gradle dependencies */
 
 
 public class MainActivity extends AppCompatActivity {
