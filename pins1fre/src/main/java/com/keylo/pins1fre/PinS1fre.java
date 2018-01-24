@@ -355,8 +355,13 @@ public class PinS1fre extends SQLiteOpenHelper {
                 button.setTextSize(24);
                 button.setAllCaps(false);
                 button.setTextColor(Color.parseColor("#FFFFFF"));
-                btnParams.setMargins(10, 10, 10, 10);
-                button.setBackground(ResourcesCompat.getDrawable(activity.getResources(), R.drawable.gradient, null));
+                if(keys.get(keyval).split("~")[0].equals(" ")){
+                    button.setVisibility(View.INVISIBLE);
+                }
+                btnParams.setMargins(15, 15, 15, 15);
+                try {
+                    button.setBackgroundResource(R.drawable.gradient);
+                }catch (Exception e){button.setBackgroundResource(R.drawable.shape);}
                 button.setLayoutParams(btnParams);
                 button.setOnClickListener(new btnKey_Clicked());
                 if(keys.get(keyval).split("~")[0].contains("DEL")){
