@@ -11,7 +11,7 @@
 dependencies {
     //Other dependencies...
     
-    compile 'com.tht.applocker:pins1fre:1.0:release@aar'
+    compile 'com.tht.applocker:pins1fre:2.1:release@aar'
 }
 
 ```
