@@ -1,0 +1,8 @@
+<resources>
+    <string name="pass_changed_msg">PIN kodu değişti!</string>
+    <string name="pass_enter_msg">PIN Kodunu Giriniz:</string>
+    <string name="pass_enter_again_msg">"Tekrar PIN kodu giriniz: "</string>
+    <string name="pass_false_msg">"Tekrar deneyiniz."</string>
+    <string name="pass_delete_msg">"PIN Kodu kaldırıldı!"</string>
+    <string name="pins1fre_msg">Powered by PinS1fre | KeyLo99 </string>
+</resources>
